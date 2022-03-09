@@ -1,0 +1,19 @@
+
+.row{
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+.back img{
+    height: 30vw;
+    width: 30vw;
+}
+.front, .back{
+    width:100%;
+    display: table;
+}
+.front h3 , .back h3{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
